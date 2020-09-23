@@ -8,4 +8,4 @@ SET(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} "-pthread")
 
 include_directories(${CMAKE_SOURCE_DIR}/lib)
 
-target_link_libraries(AllocatorExe PRIVATE AllocatorLibrary)
+#target_link_libraries(AllocatorExe PRIVATE AllocatorLibrary)
